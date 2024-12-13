@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    width: 8px; /* Adjust width for vertical scrollbar */
+    height: 8px; /* Adjust height for horizontal scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3); /* Thumb color */
+    border-radius: 10px; /* Rounded corners for the thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.834); /* Darker color on hover */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent; /* Track background color */
+  }
